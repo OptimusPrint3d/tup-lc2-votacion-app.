@@ -1,0 +1,123 @@
+@import './common.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+
+.boton-paso {
+    background-color: var(--magenta);
+    border-radius: 5px;
+    padding: 5px 43px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    font-size: 10px;
+    font: #FFF;
+
+}
+
+.boton-generales {
+    background-color: var(--celeste);
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    font-size: 10px;
+    font: #FFF;
+}
+
+
+.boton-paso:hover {
+    background-color: var(--gris-claro);
+}
+
+.boton-generales:hover {
+    background-color: var(--gris-claro);
+}
+
+header ul li a:hover {
+    background-color: var(--gris-claro);
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 10px;
+}
+
+header ul li p {
+    font-size: 10px;
+}
+
+.sec-titulo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.sec-titulo-texto {
+    width: 60%;
+}
+
+.sec-titulo-texto h2 {
+    font-size: 45px;
+    margin: 0;
+    color: rgb(27, 27, 27);
+}
+
+.sec-titulo-texto p {
+    color: rgb(95, 95, 95);
+    line-height: 25px;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.sec-titulo-container img {
+    margin: 15px;
+    width: 350px;
+}
+
+#sec-contenido {
+    width: 90%;
+    margin: auto;
+}
+
+.main-botones {
+    display: flex;
+    justify-content: center;
+}
+
+.main-boton-paso {
+    background-color: var(--magenta);
+    border-radius: 10px;
+    margin: 25px;
+    width: 400px;
+    height: 100px;
+    padding: 1rem;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-boton-generales {
+    background-color: var(--celeste);
+    border-radius: 10px;
+    margin: 25px;
+    width: 400px;
+    height: 100px;
+    padding: 1rem;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
